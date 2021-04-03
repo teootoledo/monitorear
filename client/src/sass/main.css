@@ -1,0 +1,89 @@
+* {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 1rem;
+  color: #444444 !important;
+}
+
+.navbar {
+  height: 100px;
+}
+
+.btn {
+  font-weight: 500;
+  font-size: 1.125rem;
+}
+
+.app-logo {
+  height: 50px;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.app-logo:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.nav-link {
+  margin-left: 20px;
+}
+
+.register-btn {
+  background: #dc00d5;
+  border-radius: 5px;
+  color: white !important;
+}
+
+.login-btn {
+  border-width: 2px !important;
+  border-radius: 5px;
+  border-color: #dc00d5;
+  color: #dc00d5 !important;
+}
+
+.main {
+  text-align: center;
+}
+
+.main-content {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+.header {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.main-title {
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 4rem;
+}
+
+.main-text {
+  font-size: 1.3rem;
+  color: #686868 !important;
+  font-weight: 500;
+}
+
+.room-img {
+  max-height: 500px;
+}
+/*# sourceMappingURL=main.css.map */
