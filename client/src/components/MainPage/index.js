@@ -28,9 +28,11 @@ export default class MainPage extends Component {
                 Todos tus dispositivos conectados en un solo lugar.
               </h1>
               <p className="main-text mt-5">
-                You can easily control all the dispositives in the house. Turn
-                the lights on, watch your security cameras, and more with this
-                incredible app.
+                Controla todos los dispositivos de tu casa desde donde quieras
+                con <span className="main-text-bold">Monitorear</span>. Lleva la
+                trazabilidad de sensores de temperatura, humedad, niveles de CO
+                <sub>2</sub>, movimiento, entre muchos más. Dispara alertas por
+                Telegram o WhatsApp al instante.
               </p>
             </div>
             <div className="col">
