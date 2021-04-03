@@ -20,9 +20,40 @@ export default class ContactUs extends Component {
         animate="in"
         exit="out"
         variants={pageTransition}
+        className="contact"
       >
-        <h1>CONTACT US</h1>
+        <div className="contact-content">
+          <h1 className="contact-title">Ponte en contacto con nosotros!</h1>
+          <p className="contact-text">
+            Recibirás una respuesta de nuestro servicio de atención al cliente
+            lo antes posible. No olvides revisar tu casilla de correos.
+          </p>
+          <Formulario />
+        </div>
       </motion.div>
+    );
+  }
+}
+
+class Formulario extends Component {
+  state = {};
+  render() {
+    return (
+      <form method="POST">
+        <div>
+          <label htmlFor="name">Name:</label>
+          <input type="text" id="name" required />
+        </div>
+        <div>
+          <label htmlFor="email">Email:</label>
+          <input type="email" id="email" required />
+        </div>
+        <div>
+          <label htmlFor="message">Message:</label>
+          <textarea id="message" required />
+        </div>
+        <button type="submit">Enviar</button>
+      </form>
     );
   }
 }
