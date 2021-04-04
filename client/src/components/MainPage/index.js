@@ -34,6 +34,7 @@ export default class MainPage extends Component {
                 <sub>2</sub>, movimiento, entre muchos más. Dispara alertas por
                 Telegram o WhatsApp al instante.
               </p>
+              <button className="btn btn1">Quiero saber más!</button>
             </div>
             <div className="col">
               <img src={room} alt="Smart room" className="room-img" />
